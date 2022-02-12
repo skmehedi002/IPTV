@@ -1,0 +1,74 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.brand-logo img {
+		margin-bottom: -10px;
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.brand-logo img {
+		margin-bottom: 0;
+	}
+	h2.pogoSlider-slide-element.slider-main-title {
+		margin-top: 45px;
+	}
+	.social-links:before,
+	.social-links:after {
+		width: 25%;
+	}
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.brand-logo img {
+		margin-bottom: 0;
+	}
+
+	.social-links:before,
+	.social-links:after {
+		width: 0%;
+	}
+	h2.pogoSlider-slide-element.slider-main-title {
+		font-size: 15px;
+	}
+	.subscription-wrap {
+		margin-top: 25px;
+	}
+	.pogoSlider {
+		min-height: 500px;
+	}
+	.silder-elements {
+		padding: 0;
+	}
+
+	.nav-wrapper li:last-child {
+		padding: 5px;
+		padding-left: 25px;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.pogoSlider-slide-element.slider-main-title {
+		margin-top: 45px;
+	}
+	.social-links:before,
+	.social-links:after {
+		width: 25%;
+	}
+	.subscription-wrap {
+		margin-top: 25px;
+	}
+
+	.nav-wrapper li:last-child {
+		padding: 5px;
+		padding-left: 25px;
+	}
+}
